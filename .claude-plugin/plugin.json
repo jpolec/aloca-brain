@@ -1,10 +1,18 @@
 {
   "name": "aloca-brain",
-  "version": "0.1.0",
-  "description": "Second brain on top of ALOCA: daily ingest of meetings and mail into reviewable proposals, a morning LNO brief, and a weekly review of commitments and decisions.",
+  "version": "0.2.0",
+  "description": "Second brain on top of ALOCA: import what Claude knows about you, daily ingest into reviewable proposals, a morning LNO brief, and a weekly review of commitments and decisions.",
   "author": {
     "name": "Jakub Polec"
   },
   "homepage": "https://aloca.io",
-  "keywords": ["aloca", "second-brain", "crm", "commitments", "decisions", "lno", "mcp"]
+  "keywords": [
+    "aloca",
+    "second-brain",
+    "crm",
+    "commitments",
+    "decisions",
+    "lno",
+    "mcp"
+  ]
 }

@@ -21,6 +21,7 @@ In the Claude app, zip this repository into `aloca-brain.plugin` (or use the pac
 | `/start` | Today's meetings, open promises, follow-ups, pending proposals, one next step | No |
 | `/ingest` | Meetings, emails and transcripts → ALOCA notes + commitment/decision proposals for review | Notes and proposals only |
 | `/brief` | Morning or pre-meeting brief from ALOCA history, prioritised with LNO (Leverage / Neutral / Overhead) | No |
+| `/import-me` | Bootstraps an empty ALOCA from what Claude already knows about you: a source note plus decision/commitment proposals, marked unverified | Note and proposals only |
 | `/review` | Weekly review of promises, decisions at risk and the review queue; drafts follow-ups | Only after you approve |
 | `aloca-rules` | Operating rules applied automatically whenever ALOCA is used | – |
 
