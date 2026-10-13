@@ -1,0 +1,15 @@
+{
+  "name": "aloca",
+  "description": "ALOCA plugins for Claude: a second brain on top of your ALOCA workspace.",
+  "owner": {
+    "name": "Jakub Polec",
+    "url": "https://aloca.io"
+  },
+  "plugins": [
+    {
+      "name": "aloca-brain",
+      "source": "./",
+      "description": "Second brain on top of ALOCA: daily ingest into reviewable proposals, a morning LNO brief, and a weekly review of commitments and decisions."
+    }
+  ]
+}
