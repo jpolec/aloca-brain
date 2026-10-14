@@ -49,6 +49,17 @@ Every write takes a fresh UUID as its idempotency key. Reuse the same key only t
 retry the identical payload. Edits to existing records need the current `revision`
 from a fresh read; on a stale-revision error, re-read and show the user what changed.
 
+## People and companies
+
+- Before creating or editing a contact, compare the company name you are about to
+  write with the email domain (and any existing contact or tag for that company).
+  If they disagree (for example "OmniPoint" with @ompnt.com, which is Omega Point),
+  stop and ask the user which is right before writing anything. Never write a name
+  you believe is wrong, even if the user typed it.
+- Tags derived from a company name must use the confirmed company name.
+- Saving a contact never means emailing them. Do not add a contact to a flow,
+  sequence or mailing list unless the user asks for that specific action.
+
 ## Never without explicit approval
 
 - `send_email`: always `prepare_email` first, show From, To, subject and the full
